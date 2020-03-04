@@ -10,4 +10,8 @@ class TodoList(ListView):
 
 class TodoDetail(DetailView):
     template_name = 'detail.html'
+<<<<<<< HEAD
     model = TodoModel
+=======
+    model = TodoModel
+>>>>>>> abfeadd42205ac956cd97b544da3372668e89847
