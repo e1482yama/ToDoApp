@@ -1,4 +1,6 @@
 {% for item in object_list %}
-{{ item.title }}
-{{ item.memo }}
+<ul>
+    <h3>{{ item.title }}</h3>
+    <li>{{ item.memo }}</li>
+</ul>
 {% endfor %}
